@@ -5,7 +5,7 @@ class Stock:
         self.price = price
 
     def cost(self):
-        print(self.shares * self.price)
+        return self.shares * self.price
 
     def sell(self,shares):
         self.shares -= shares
